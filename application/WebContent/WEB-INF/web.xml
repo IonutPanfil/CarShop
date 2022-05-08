@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>Repmasini</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<servlet-class>Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Register</servlet-name>
+  	<servlet-class>Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Register</servlet-name>
+  	<url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>SwitchToConsultant</servlet-name>
+  	<servlet-class>SwitchToConsultant</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SwitchToConsultant</servlet-name>
+  	<url-pattern>/SwitchToConsultant</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>SwitchToClient</servlet-name>
+  	<servlet-class>SwitchToClient</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SwitchToClient</servlet-name>
+  	<url-pattern>/SwitchToClient</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DeleteAccount</servlet-name>
+  	<servlet-class>DeleteAccount</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DeleteAccount</servlet-name>
+  	<url-pattern>/DeleteAccount</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>InsertAuto</servlet-name>
+  	<servlet-class>InsertAuto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>InsertAuto</servlet-name>
+  	<url-pattern>/InsertAuto</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DeleteAuto</servlet-name>
+  	<servlet-class>DeleteAuto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DeleteAuto</servlet-name>
+  	<url-pattern>/DeleteAuto</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Cumpara</servlet-name>
+  	<servlet-class>Cumpara</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Cumpara</servlet-name>
+  	<url-pattern>/Cumpara</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Raport</servlet-name>
+  	<servlet-class>Raport</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Raport</servlet-name>
+  	<url-pattern>/Raport</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
+</element>
